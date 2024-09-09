@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    height: 1080x;
+    width: 1080px;
+    flex-wrap: wrap;
+}
+
+#container > * {
+    flex-basis: 6%; /* CHANGE THIS*/
+    aspect-ratio: 1/1;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+
+.default-black{
+    background-color: black;
+}
+
+h1 {
+    margin: 50px 0 25px 0;
+    color: green;
+    text-align: center;
+}
+
+#buttonGroup{
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+button{
+    padding: 8px;
+}
+
+#modeAnnouncer {
+    margin-bottom: 16px;
+    text-align: center;
+}
